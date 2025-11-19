@@ -1,0 +1,77 @@
+/* Headeri */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 150px;
+    border-bottom: lightgray 1px solid;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkcyan;
+}
+
+header img {
+    height: 50px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.news {
+    padding: 20px 100px;
+}
+
+.news h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkcyan;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.newscard {
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px darkcyan solid;
+    border-radius: 20px;
+    width: 300px;
+    margin: 20px 0px;
+    background-color: lightgray;
+}
+
+.news img {
+    width: 300px;
+}
+
+.news h2 {
+    font-size: medium;
+}
