@@ -75,3 +75,39 @@ header ul a {
 .news h2 {
     font-size: medium;
 }
+
+footer {
+    padding: 20px 150px;
+    border-top: 1px solid gray;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+footer h3 {
+    color: darkcyan;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: gray;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    margin: 6px 0;
+    text-wrap: nowrap;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
